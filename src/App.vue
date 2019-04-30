@@ -1,6 +1,7 @@
 <template>
     <div id="app">
         <the-navbar @scroll="handleScroll"/>
+        <the-header/>
         <div v-scroll-spy="{allowNoActive: true}">
             <the-dataset/>
             <the-contact/>
@@ -11,6 +12,7 @@
 
 <script>
 import TheNavbar from '@/components/TheNavbar'
+import TheHeader from '@/components/TheHeader'
 import TheDataset from '@/components/TheDataset'
 import TheContact from '@/components/TheContact'
 import TheFooter from '@/components/TheFooter'
@@ -19,6 +21,7 @@ export default {
     name: "App",
     components: {
         TheNavbar,
+        TheHeader,
         TheDataset,
         TheContact,
         TheFooter
@@ -49,6 +52,7 @@ export default {
 }
 
 .scrolled {
+    background: linear-gradient(to right, $primary-color 10%, $secondary-color 110%) !important;
     padding: 0.25rem 1rem !important;
     
 }

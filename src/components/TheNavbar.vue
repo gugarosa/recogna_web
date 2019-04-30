@@ -1,8 +1,7 @@
 <template>
     <b-navbar
     class="fixed-top"
-    toggleable="md"
-    variant="info">
+    toggleable="md">
         <b-navbar-brand href="#">
             <img
             src="../assets/img/logo.png"
