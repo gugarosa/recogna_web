@@ -24,7 +24,7 @@ export default {
         TheFooter
     },
     methods: {
-        handleScroll (e) {
+        handleScroll () {
             let navbar = document.querySelector('.navbar')
             if (window.scrollY > 100) {
                 navbar.classList.add('scrolled')

@@ -3,7 +3,17 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col">
-                    Contact
+                    <h2 class="title">
+                        Contact
+                        <hr class="divider">
+                    </h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <h6 class="subtitle">
+                        Want to contact us? Just fill out the following form.
+                    </h6>
                 </div>
             </div>
         </div>

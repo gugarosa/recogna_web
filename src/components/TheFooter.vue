@@ -1,19 +1,27 @@
 <template>
     <footer>
-        <div class="container">
+        <div class="container py-3">
             <div class="row text-center">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-3">
                     <span class="mr-1">&copy;</span>
                     <span class="mr-1">{{ currentYear }}</span>
                     <span>Recogna Laboratory</span>
                 </div>
-                <div class="col-12 col-md-4">
-                    Social icons
-                </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 mb-3">
                     <font-awesome-icon
-                    class="mr-1"
-                    :icon="['fal', 'envelope']"/>
+                    class="mr-3"
+                    :icon="['fab', 'twitter']"/>
+                    <font-awesome-icon
+                    class="mr-3"
+                    :icon="['fab', 'youtube']"/>
+                    <font-awesome-icon
+                    class="mr-3"
+                    :icon="['fab', 'github']"/>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-3">
+                    <font-awesome-icon
+                    class="text-primary mr-1"
+                    :icon="['fas', 'envelope']"/>
                     <span>recogna@fc.unesp.br</span>
                 </div>
             </div>
@@ -21,8 +29,8 @@
                 <div class="col-12">
                     <span class="mr-1">Made with</span>
                     <font-awesome-icon
-                    class="mr-1"
-                    :icon="['fal', 'heart']"/>
+                    class="text-danger mr-1"
+                    :icon="['fas', 'heart']"/>
                     <span>by Gustavo Rosa</span>
                 </div>
             </div>
