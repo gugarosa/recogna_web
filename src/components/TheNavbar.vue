@@ -33,5 +33,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.navbar {
+    padding: 0.75rem 1rem;
+    transition: all 0.5s;
+}
 </style>

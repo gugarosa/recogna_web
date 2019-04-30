@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <the-navbar/>
+        <the-navbar @scroll="handleScroll"/>
         <div v-scroll-spy="{allowNoActive: true}">
             <the-dataset/>
             <the-contact/>
@@ -22,6 +22,23 @@ export default {
         TheDataset,
         TheContact,
         TheFooter
+    },
+    methods: {
+        handleScroll (e) {
+            let navbar = document.querySelector('.navbar')
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled')
+            }
+            else {
+                navbar.classList.remove('scrolled')
+            }
+        }
+    },
+    created () {
+        window.addEventListener('scroll', this.handleScroll)
+    },
+    destroyed () {
+        window.removeEventListener('scroll', this.handleScroll)
     }
 }
 </script>
@@ -29,5 +46,10 @@ export default {
 <style lang="scss">
 #app {
     height: 100%;
+}
+
+.scrolled {
+    padding: 0.25rem 1rem !important;
+    
 }
 </style>
