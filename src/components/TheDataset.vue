@@ -1,9 +1,9 @@
 <template>
-    <section id="contact">
+    <section id="dataset">
         <div class="container">
             <div class="row text-center">
                 <div class="col">
-                    Contact
+                    Dataset
                 </div>
             </div>
         </div>
@@ -12,13 +12,12 @@
 
 <script>
 export default {
-    name: 'TheContact'
+    name: 'TheDataset'
 }
 </script>
 
 <style lang="scss" scoped>
-#contact {
-    background-color: $bg-light-color;
+#dataset {
     padding: 200px 0;
 }
 </style>
