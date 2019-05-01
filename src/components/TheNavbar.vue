@@ -36,7 +36,11 @@ export default {
 <style lang="scss" scoped>
 .navbar {
     padding: 25px 65px;
-    transition: all 0.5s;
+    transition: $transition;
+    &-brand {
+        cursor: default;
+        font-weight: 500;
+    }
 }
 
 .nav-link {
@@ -61,17 +65,15 @@ export default {
 @media screen and (max-width: $view-sm) {
     .navbar {
         padding: 10px 0 !important;
-        .navbar-brand {
+        &-brand {
             padding: 0px 15px;
         }
-    }
-
-    .navbar-toggler {
-        margin-right: 15px;
-    }
-
-    .navbar-nav {
-        margin-top: 5px;
+        &-nav {
+            margin-top: 5px;
+        }
+        &-toggler {
+            margin-right: 15px;
+        }
     }
 
     .nav-link {

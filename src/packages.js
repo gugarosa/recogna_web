@@ -4,8 +4,7 @@ import Scrollspy from 'vue2-scrollspy'
 
 // Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { fas } from '@fortawesome/pro-solid-svg-icons'
+import { far } from '@fortawesome/pro-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // Assets (.css, .scss or .js) to be imported
@@ -14,7 +13,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/scss/_main.scss'
 
 // Adding to FA's library
-library.add(fab, fas)
+library.add(far)
 
 // Instanciating components
 Vue.component('font-awesome-icon', FontAwesomeIcon)

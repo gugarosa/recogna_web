@@ -1,8 +1,13 @@
 <template>
-    <div id="app">
+    <div
+    class="h-100"
+    id="app">
         <the-navbar @scroll="handleScroll"/>
         <the-header/>
         <div v-scroll-spy="{allowNoActive: true}">
+            <the-about-us/>
+            <the-team/>
+            <the-library/>
             <the-dataset/>
             <the-contact/>
         </div>
@@ -13,15 +18,21 @@
 <script>
 import TheNavbar from '@/components/TheNavbar'
 import TheHeader from '@/components/TheHeader'
+import TheAboutUs from '@/components/TheAboutUs'
+import TheTeam from '@/components/TheTeam'
+import TheLibrary from '@/components/TheLibrary'
 import TheDataset from '@/components/TheDataset'
 import TheContact from '@/components/TheContact'
 import TheFooter from '@/components/TheFooter'
 
 export default {
-    name: "App",
+    name: 'App',
     components: {
         TheNavbar,
         TheHeader,
+        TheAboutUs,
+        TheTeam,
+        TheLibrary,
         TheDataset,
         TheContact,
         TheFooter
@@ -47,15 +58,11 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-    height: 100%;
-}
-
 .scrolled {
     background: linear-gradient(to right, $primary-color 10%, $secondary-color 110%) !important;
     padding: 10px 65px !important;
     .nav-link {
-            font-size: 14px;
+        font-size: 14px !important;
     }
 }
 
@@ -63,7 +70,7 @@ export default {
     .scrolled {
         padding: 10px 0 !important;
         .navbar-brand {
-            padding: 0px 10px;
+            padding: 0px 15px;
         }
     }
 }

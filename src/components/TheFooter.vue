@@ -1,23 +1,23 @@
 <template>
     <footer>
-        <div class="container py-3">
+        <div class="container py-3 mt-2">
             <div class="row text-center">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 mb-2">
                     <span class="mr-1">&copy;</span>
                     <span class="mr-1">{{ currentYear }}</span>
                     <span>Recogna Laboratory</span>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-2">
                     <span class="mr-1">Made with</span>
                     <font-awesome-icon
                     class="text-danger mr-1"
-                    :icon="['fas', 'heart']"/>
+                    :icon="['far', 'heart']"/>
                     <span>by Gustavo Rosa</span>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-2">
                     <font-awesome-icon
                     class="text-primary mr-1"
-                    :icon="['fas', 'envelope']"/>
+                    :icon="['far', 'envelope']"/>
                     <span>recogna@fc.unesp.br</span>
                 </div>
             </div>
@@ -42,4 +42,3 @@ export default {
 <style lang="scss" scoped>
 
 </style>
-

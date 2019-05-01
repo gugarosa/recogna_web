@@ -12,11 +12,11 @@
                             Biometric & Pattern Recognition Research Group
                         </span>
                     </div>
-                    <div class="mt-4" v-scroll-spy-link>
+                    <div class="mt-5" v-scroll-spy-link>
                         <a>
                             <font-awesome-icon
                             class="text-white"
-                            :icon="['fas', 'chevron-double-down']"
+                            :icon="['far', 'chevron-double-down']"
                             size="2x"
                             pulse/>
                         </a>
@@ -40,37 +40,6 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.fa-pulse {
-    animation: pulse 2s infinite linear;
-    cursor: pointer;
-}
-
-@-webkit-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-moz-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-o-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-ms-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
 }
 </style>
 
