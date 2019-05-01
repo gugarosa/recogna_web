@@ -59,6 +59,9 @@ export default {
     .nav-link {
         background-color: $secondary-color !important;
         border-radius: 5px;
+        &:hover {
+            color: $primary-color !important;
+        }
     }
 }
 
