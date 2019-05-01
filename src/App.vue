@@ -53,7 +53,18 @@ export default {
 
 .scrolled {
     background: linear-gradient(to right, $primary-color 10%, $secondary-color 110%) !important;
-    padding: 0.25rem 1rem !important;
-    
+    padding: 10px 65px !important;
+    .nav-link {
+            font-size: 14px;
+    }
+}
+
+@media screen and (max-width: $view-sm) {
+    .scrolled {
+        padding: 10px 0 !important;
+        .navbar-brand {
+            padding: 0px 10px;
+        }
+    }
 }
 </style>

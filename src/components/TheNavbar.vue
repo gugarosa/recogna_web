@@ -1,13 +1,16 @@
 <template>
     <b-navbar
-    class="fixed-top"
+    class="navbar-dark fixed-top"
     toggleable="md">
-        <b-navbar-brand href="#">
+        <b-navbar-brand>
             <img
+            class="mr-1"
             src="../assets/img/logo.png"
-            width="40"
+            width="45px"
             alt="Recogna">
-            Recogna
+            <span class="text-white">
+                Recogna
+            </span>
         </b-navbar-brand>
         <b-navbar-toggle target="collapse"/>
         <b-collapse
@@ -16,7 +19,6 @@
             <b-navbar-nav class="ml-auto" v-scroll-spy-active v-scroll-spy-link>
                 <b-nav-item>About Us</b-nav-item>
                 <b-nav-item>Team</b-nav-item>
-                <b-nav-item>Research</b-nav-item>
                 <b-nav-item>Libraries</b-nav-item>
                 <b-nav-item>Datasets</b-nav-item>
                 <b-nav-item>Contact</b-nav-item>
@@ -33,7 +35,54 @@ export default {
 
 <style lang="scss" scoped>
 .navbar {
-    padding: 0.75rem 1rem;
+    padding: 25px 65px;
     transition: all 0.5s;
+}
+
+.nav-link {
+    color: $white-color !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 10px !important;
+    text-transform: uppercase;
+    transition: $transition;
+    &:hover {
+        color: $secondary-color !important;
+    }
+}
+
+.active {
+    .nav-link {
+        background-color: $secondary-color !important;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: $view-sm) {
+    .navbar {
+        padding: 10px 0 !important;
+        .navbar-brand {
+            padding: 0px 15px;
+        }
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .navbar-nav {
+        margin-top: 5px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding-left: 20px !important;
+    }
+
+    .active {
+        .nav-link {
+            border-radius: 0px;
+        }
+    }
 }
 </style>
