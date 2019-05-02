@@ -1,9 +1,13 @@
 .divider {
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-top: 2px solid rgba($secondary-color, 0.5);
     width: 75px;
 }
 
 .title {
     color: $primary-color;
     text-transform: uppercase;
+}
+
+.subtitle {
+    color: #777777;
 }

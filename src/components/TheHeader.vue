@@ -8,9 +8,9 @@
                     src="../assets/img/full-logo.png"
                     width="200px">
                     <div>
-                        <span class="text-white">
+                        <h5 class="text-white">
                             Biometric & Pattern Recognition Research Group
-                        </span>
+                        </h5>
                     </div>
                     <div class="mt-5" v-scroll-spy-link>
                         <a>

@@ -16,6 +16,51 @@
                     </h6>
                 </div>
             </div>
+            <div class="row text-center mt-3">
+                <div class="col col-sm-10 offset-sm-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+                    <form method="POST" action="https://formspree.io/recogna@fc.unesp.br">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <font-awesome-icon
+                                        :icon="['far', 'user-circle']"/>
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control" name="Name" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <font-awesome-icon
+                                        :icon="['far', 'envelope']"/>
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control" name="Email" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <font-awesome-icon
+                                        :icon="['far', 'pen']"/>
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control" name="Subject" placeholder="Subject" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" name="Message" placeholder="Input your message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -30,5 +75,22 @@ export default {
 #contact {
     background-color: $bg-light-color;
     padding: 200px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    &:hover {
+        background-color: darken($primary-color, 5%) !important;
+        border-color: darken($primary-color, 5%) !important;
+    }
+    &:active {
+        background-color: darken($primary-color, 10%) !important;
+        border-color: darken($primary-color, 10%) !important;
+    }
 }
 </style>
