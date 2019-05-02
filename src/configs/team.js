@@ -172,30 +172,3 @@ export const students = [
         url: 'http://lattes.cnpq.br/5637563259061367'
     }
 ]
-
-export const alumnis = [
-    {
-        name: 'Bárbara B.',
-        url: ''
-    },
-    {
-        name: 'Bruna R.',
-        url: ''
-    },
-    {
-        name: 'Daniel O.',
-        url: ''
-    },
-    {
-        name: 'Karoline K.',
-        url: ''
-    },
-    {
-        name: 'Lucas R.',
-        url: ''
-    },
-    {
-        name: 'Lucas S.',
-        url: ''
-    }
-]

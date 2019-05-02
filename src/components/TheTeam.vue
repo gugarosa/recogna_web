@@ -105,13 +105,12 @@
 </template>
 
 <script>
-import { alumnis, collaborators, researches, students } from '@/configs/team'
+import { collaborators, researches, students } from '@/configs/team'
 
 export default {
     name: 'TheTeam',
     data () {
         return {
-            alumnis: alumnis,
             collaborators: collaborators,
             researches: researches,
             students: students
