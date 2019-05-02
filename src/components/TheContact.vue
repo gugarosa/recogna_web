@@ -82,15 +82,15 @@ textarea {
 }
 
 .btn-primary {
-    background-color: $primary-color;
-    border-color: $primary-color;
+    background-color: rgba($primary-color, 0.8);
+    border-color: rgba($primary-color, 0.8);
     &:hover {
-        background-color: darken($primary-color, 5%) !important;
-        border-color: darken($primary-color, 5%) !important;
+        background-color: rgba($primary-color, 0.9) !important;
+        border-color: rgba($primary-color, 0.9) !important;
     }
     &:active {
-        background-color: darken($primary-color, 10%) !important;
-        border-color: darken($primary-color, 10%) !important;
+        background-color: $primary-color !important;
+        border-color: $primary-color !important;
     }
 }
 </style>
