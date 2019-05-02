@@ -16,7 +16,7 @@
                     </h6>
                 </div>
             </div>
-            <div class="row text-center mt-3">
+            <div class="row text-center mt-5">
                 <div class="col">
                     <b-card>
                         <b-card-text>

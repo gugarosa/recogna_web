@@ -12,7 +12,13 @@
                     <font-awesome-icon
                     class="text-danger mr-1"
                     :icon="['far', 'heart']"/>
-                    <span>by Gustavo Rosa</span>
+                    <span>by
+                        <a
+                        href="https://github.com/gugarosa"
+                        target="_blank">
+                            Gustavo Rosa
+                        </a>
+                    </span>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-2">
                     <font-awesome-icon
@@ -40,5 +46,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+a {
+    color: $black-color;
+    transition: $transition;
+    &:hover {
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
 </style>

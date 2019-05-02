@@ -16,7 +16,7 @@
                     </h6>
                 </div>
             </div>
-            <div class="row text-center mt-3">
+            <div class="row text-center mt-5">
                 <div class="col col-sm-10 offset-sm-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
                     <form method="POST" action="https://formspree.io/recogna@fc.unesp.br">
                         <div class="form-group">

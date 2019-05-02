@@ -16,7 +16,7 @@
                     </h6>
                 </div>
             </div>
-            <div class="row text-center mt-3">
+            <div class="row text-center mt-5">
                 <div
                 class="col-12 col-sm-6 col-md-4 mb-4"
                 v-for="library in libraries"
