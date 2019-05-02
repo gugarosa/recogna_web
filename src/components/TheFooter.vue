@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-2">
                     <font-awesome-icon
-                    class="text-dark mr-1"
+                    class="text-primary mr-1"
                     :icon="['far', 'envelope']"/>
                     <span>recogna@fc.unesp.br</span>
                 </div>

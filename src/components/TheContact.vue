@@ -74,7 +74,7 @@ export default {
 <style lang="scss" scoped>
 #contact {
     background-color: $bg-light-color;
-    padding: 200px 0;
+    padding: 150px 0
 }
 
 textarea {

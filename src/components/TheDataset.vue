@@ -28,6 +28,6 @@ export default {
 
 <style lang="scss" scoped>
 #dataset {
-    padding: 200px 0;
+    padding: 150px 0
 }
 </style>

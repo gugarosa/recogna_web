@@ -38,7 +38,7 @@ export default {
 <style lang="scss" scoped>
 #about-us {
     background-color: $bg-light-color;
-    padding: 200px 0;
+    padding: 150px 0
 }
 
 .card {

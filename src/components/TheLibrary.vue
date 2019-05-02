@@ -20,14 +20,16 @@
                 <div
                 class="col-12 col-sm-6 col-md-4 mb-4"
                 v-for="library in libraries"
-                :key=library.id>
+                :key="library.id">
                     <a
-                    :href=library.url
+                    :href="library.url"
                     target="_blank">
-                        <b-card :title=library.title>
+                        <b-card
+                        :title="library.title"
+                        :style="{'background-color': library.color}">
                             <b-card-text>
                                 <img
-                                :src=getLibraryImage(library.img)
+                                :src="getLibraryImage(library.img)"
                                 width="40px">
                                 <div class="mt-3">
                                     {{ library.description }}
@@ -53,7 +55,7 @@ export default {
     },
     methods: {
         getLibraryImage (image) {
-            return require('../assets/img/' + image)
+            return require('../assets/img/library/' + image)
         }
     }
 }
@@ -62,7 +64,7 @@ export default {
 <style lang="scss" scoped>
 #library {
     background-color: $bg-light-color;
-    padding: 200px 0;
+    padding: 150px 0
 }
 
 a {
@@ -72,13 +74,12 @@ a {
 }
 
 .card {
-    background-color: rgba($primary-color, 0.8);
     color: $white-color;
+    opacity: $opacity;
     transition: $transition;
     &:hover {
-        background-color: $primary-color;
-        color: $white-color;
         cursor: pointer;
+        opacity: 1;
     }
 }
 
