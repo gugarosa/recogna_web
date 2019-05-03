@@ -2,7 +2,7 @@ export const datasets = [
     {
         type: 'Biometric Recognition',
         icon: 'fingerprint',
-        color: '#370878',
+        color: '#4a00d6',
         items: [
             {
                 name: 'SignRec',
@@ -16,7 +16,7 @@ export const datasets = [
     {
         type: 'Feature Selection',
         icon: 'lightbulb',
-        color: '#082d78',
+        color: '#382ee1',
         items: [
             {
                 name: 'Biological',
@@ -58,7 +58,7 @@ export const datasets = [
     {
         type: 'Image Classification',
         icon: 'image',
-        color: '#087877',
+        color: '#2b50e9',
         items: [
             {
                 name: 'Caltech101',
@@ -114,7 +114,7 @@ export const datasets = [
     {
         type: 'Network Detection',
         icon: 'wifi',
-        color: '#08782a',
+        color: '#1f6ff0',
         items: [
             {
                 name: 'uneSPY',
@@ -135,7 +135,7 @@ export const datasets = [
     {
         type: 'Remote Sensing',
         icon: 'map-marker-alt',
-        color: '#780808',
+        color: '#1094f9',
         items: [
             {
                 name: 'Alos-Palsar',

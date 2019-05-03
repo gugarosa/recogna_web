@@ -2,7 +2,7 @@
     <b-navbar
     class="navbar-dark fixed-top"
     toggleable="md">
-        <b-navbar-brand>
+        <b-navbar-brand href="/#">
             <img
             class="mr-1"
             src="../assets/img/logo.png"
@@ -38,7 +38,7 @@ export default {
     padding: 25px 65px;
     transition: $transition;
     &-brand {
-        cursor: default;
+        cursor: pointer;
         font-weight: 500;
     }
 }

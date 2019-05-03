@@ -32,19 +32,23 @@
                     <b-modal
                     :id="dataset.type"
                     centered>
-                        <template slot="modal-title">
-                            <font-awesome-icon
-                            :icon="['far', dataset.icon]"/>
-                            {{ dataset.type }}
+                        <template
+                        slot="modal-title">
+                            <span :style="{'color': dataset.color}">
+                                <font-awesome-icon
+                                :icon="['far', dataset.icon]"/>
+                                {{ dataset.type }}
+                            </span>
                         </template>
                         <template slot="default">
                             <div
-                            class="text-left mb-2"
+                            class="dataset-item text-left"
                             v-for="item in dataset.items"
                             :key="item.id">
                                 <a :href="item.url">
-                                    {{ item.name }}: {{ item.samples }} samples, {{ item.labels }} labels, {{ item.features }} features
+                                    <b>{{ item.name }}</b>: {{ item.samples }} samples, {{ item.labels }} labels, {{ item.features }} features
                                 </a>
+                                <hr>
                             </div>
                         </template>
                         <template slot="modal-footer">
@@ -92,6 +96,12 @@ a {
     &:hover {
         cursor: pointer;
         opacity: 1;
+    }
+}
+
+.dataset-item:last-child {
+    hr {
+        display: none;
     }
 }
 </style>
