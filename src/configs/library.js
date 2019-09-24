@@ -40,5 +40,12 @@ export const libraries = [
         color: '#1a79f3',
         img: 'nalp.png',
         url: 'https://github.com/gugarosa/nalp'  
+    },
+    {
+        title: 'Recogners',
+        description: 'A package of machine learners built on top of PyTorch to handle Recogna experimental setup.',
+        color: '#4a00d6',
+        img: 'recogners.png',
+        url: 'https://github.com/recogna-lab/recogners'  
     }
 ]

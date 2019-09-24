@@ -64,6 +64,12 @@ export const students = [
         url: 'http://lattes.cnpq.br/9083697774870852'
     },
     {
+        name: 'Daniel F.',
+        title: 'PhD',
+        img: 'daniel_felipe.png',
+        url: 'http://lattes.cnpq.br/2836331668288532'
+    },
+    {
         name: 'Danilo W.',
         title: 'Undergraduate',
         img: 'danilo_weber.png',
@@ -76,10 +82,16 @@ export const students = [
         url: 'http://lattes.cnpq.br/2937000202876761'
     },
     {
-        name: 'Gustavo B.',
+        name: 'Guilherme B.',
         title: 'PhD',
-        img: 'gustavo_botelho.png',
-        url: 'http://lattes.cnpq.br/2368834665313763'
+        img: 'guilherme_brandao.png',
+        url: 'http://lattes.cnpq.br/8300636274454060'
+    },
+    {
+        name: 'Guilherme C.',
+        title: 'Undergraduate',
+        img: 'guilherme_camargo.png',
+        url: 'http://lattes.cnpq.br/3241334248509718'
     },
     {
         name: 'Gustavo R.',
@@ -112,16 +124,16 @@ export const students = [
         url: 'http://lattes.cnpq.br/6853979934110870'
     },
     {
-        name: 'Mateus R.',
-        title: 'Master',
-        img: 'mateus_roder.png',
-        url: 'http://lattes.cnpq.br/5962781692120165'
-    },
-    {
         name: 'Marcos C.',
         title: 'Post-PhD',
         img: 'marcos_cleison.png',
         url: 'http://lattes.cnpq.br/1817981007132675'
+    },
+    {
+        name: 'Mateus R.',
+        title: 'Master',
+        img: 'mateus_roder.png',
+        url: 'http://lattes.cnpq.br/5962781692120165'
     },
     {
         name: 'Maykon P.',
