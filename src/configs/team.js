@@ -106,6 +106,12 @@ export const students = [
         url: 'http://lattes.cnpq.br/0301785833241603'
     },
     {
+        name: 'Henrique L.',
+        title: 'Master',
+        img: 'henrique_leal.png',
+        url: ''
+    },
+    {
         name: 'Leandro P.',
         title: 'Post-PhD',
         img: 'leandro_passos.png',
