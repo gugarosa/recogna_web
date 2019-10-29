@@ -109,7 +109,7 @@ export const students = [
         name: 'Henrique L.',
         title: 'Master',
         img: 'henrique_leal.png',
-        url: ''
+        url: 'http://lattes.cnpq.br/1505025763440648'
     },
     {
         name: 'Leandro P.',
