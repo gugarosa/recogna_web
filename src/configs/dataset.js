@@ -117,6 +117,27 @@ export const datasets = [
         color: '#1f6ff0',
         items: [
             {
+                name: 'CICIDS2017',
+                samples: '2.8m',
+                labels: '15',
+                features: '78',
+                url: 'http://recogna.tech/files/cicids2017.rar'
+            },
+            {
+                name: 'ISCXTor2016',
+                samples: '67828',
+                labels: '2',
+                features: '28',
+                url: 'http://recogna.tech/files/tor-nontor.rar'
+            },
+            {
+                name: 'NSL-KDD',
+                samples: '148517',
+                labels: '2',
+                features: '40',
+                url: 'http://recogna.tech/files/nsl-kdd.rar'
+            },
+            {
                 name: 'uneSPY',
                 samples: '1.01m',
                 labels: '2',

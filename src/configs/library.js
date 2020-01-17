@@ -28,24 +28,33 @@ export const libraries = [
         url: 'https://github.com/jppbsi/LibDEV'
     },
     {
-        title: 'Opytimizer',
-        description: 'Opytimizer is a Python library for the development of meta-heuristic optimization techniques.',
-        color: '#3042e6',
-        img: 'opytimizer.png',
-        url: 'https://github.com/gugarosa/opytimizer'  
-    },
-    {
         title: 'NALP',
         description: 'NALP is a Python easy-to-pack solution that covers natural adversarial language processing.',
-        color: '#1a79f3',
+        color: '#3042e6',
         img: 'nalp.png',
         url: 'https://github.com/gugarosa/nalp'  
     },
     {
+        title: 'Opytimizer',
+        description: 'Opytimizer is a Python library for the development of meta-heuristic optimization techniques.',
+        color: '#1a79f3',
+        img: 'opytimizer.png',
+        url: 'https://github.com/gugarosa/opytimizer'  
+    },
+    {
+        title: 'OPFython',
+        description: 'OPFython is a python-inspired implementation of the Optimum-Path Forest classifier.',
+        color: '#4a00d6',
+        img: 'libopf.png',
+        url: 'https://github.com/gugarosa/OPFython'
+    },
+    {
         title: 'Recogners',
         description: 'A package of machine learners built on top of PyTorch to handle Recogna experimental setup.',
-        color: '#4a00d6',
+        color: '#3042e6',
         img: 'recogners.png',
         url: 'https://github.com/recogna-lab/recogners'  
     }
+
+
 ]
