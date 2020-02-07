@@ -45,15 +45,15 @@ export const libraries = [
         title: 'OPFython',
         description: 'OPFython is a python-inspired implementation of the Optimum-Path Forest classifier.',
         color: '#4a00d6',
-        img: 'libopf.png',
+        img: 'opfython.png',
         url: 'https://github.com/gugarosa/OPFython'
     },
     {
-        title: 'Recogners',
-        description: 'A package of machine learners built on top of PyTorch to handle Recogna experimental setup.',
+        title: 'Learnergy',
+        description: 'Learnergy is a python-inspired package for the development of energy-based machine learning models.',
         color: '#3042e6',
-        img: 'recogners.png',
-        url: 'https://github.com/recogna-lab/recogners'  
+        img: 'learnergy.png',
+        url: 'https://github.com/gugarosa/learnergy'  
     }
 
 
