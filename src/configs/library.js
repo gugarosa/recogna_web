@@ -43,14 +43,14 @@ export const libraries = [
     },
     {
         title: 'OPFython',
-        description: 'OPFython is a python-inspired implementation of the Optimum-Path Forest classifier.',
+        description: 'OPFython is a Python-inspired implementation of the Optimum-Path Forest classifier.',
         color: '#4a00d6',
         img: 'opfython.png',
         url: 'https://github.com/gugarosa/OPFython'
     },
     {
         title: 'Learnergy',
-        description: 'Learnergy is a python-inspired package for the development of energy-based machine learning models.',
+        description: 'Learnergy is a Python-inspired package for the development of energy-based machine learning models.',
         color: '#3042e6',
         img: 'learnergy.png',
         url: 'https://github.com/gugarosa/learnergy'  

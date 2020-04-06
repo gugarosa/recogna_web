@@ -124,12 +124,6 @@ export const students = [
         url: 'http://lattes.cnpq.br/0576836756526956'
     },
     {
-        name: 'Luiz F.',
-        title: 'Post-Master',
-        img: 'luiz_felix.png',
-        url: 'http://lattes.cnpq.br/6853979934110870'
-    },
-    {
         name: 'Marcos C.',
         title: 'Post-PhD',
         img: 'marcos_cleison.png',
@@ -152,12 +146,6 @@ export const students = [
         title: 'PhD',
         img: 'murilo_varges.png',
         url: 'http://lattes.cnpq.br/5501575917932892'
-    },
-    {
-        name: 'Nathalia A.',
-        title: 'Master',
-        img: 'nathalia_ascencao.png',
-        url: 'http://lattes.cnpq.br/6054020330963939'
     },
     {
         name: 'Rafael J.',
