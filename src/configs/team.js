@@ -88,12 +88,6 @@ export const students = [
         url: 'http://lattes.cnpq.br/8300636274454060'
     },
     {
-        name: 'Guilherme C.',
-        title: 'Undergraduate',
-        img: 'guilherme_camargo.png',
-        url: 'http://lattes.cnpq.br/3241334248509718'
-    },
-    {
         name: 'Gustavo R.',
         title: 'PhD',
         img: 'gustavo_rosa.png',
@@ -136,12 +130,6 @@ export const students = [
         url: 'http://lattes.cnpq.br/5962781692120165'
     },
     {
-        name: 'Maykon P.',
-        title: 'Undergraduate',
-        img: 'maykon_palma.png',
-        url: 'http://lattes.cnpq.br/0439634511326045'
-    },
-    {
         name: 'Murilo V.',
         title: 'PhD',
         img: 'murilo_varges.png',
@@ -173,7 +161,7 @@ export const students = [
     },
     {
         name: 'Vinícius C.',
-        title: 'Undergraduate',
+        title: 'Master',
         img: 'vinicius_camargo.png',
         url: 'http://lattes.cnpq.br/5637563259061367'
     }
