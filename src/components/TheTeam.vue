@@ -100,12 +100,33 @@
                     </span>
                 </div>
             </div>
+            <div class="row text-center">
+                <div class="col">
+                    <h6 class="title">
+                        Alumni
+                    </h6>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <div
+                class="col-4 col-sm-3 col-lg-2 mb-5"
+                v-for="pastStudent in alumni"
+                :key=pastStudent.id>
+                    <!-- <a
+                    :href=student.url
+                    target="_blank">
+                    </a> -->
+                    <h6 class="mb-0">
+                        {{ pastStudent.name }}
+                    </h6>
+                </div>
+            </div>
         </div>
     </section>
 </template>
 
 <script>
-import { collaborators, researches, students } from '@/configs/team'
+import { collaborators, researches, students, alumni } from '@/configs/team'
 
 export default {
     name: 'TheTeam',
@@ -113,7 +134,8 @@ export default {
         return {
             collaborators: collaborators,
             researches: researches,
-            students: students
+            students: students,
+            alumni: alumni
         }
     },
     methods: {
