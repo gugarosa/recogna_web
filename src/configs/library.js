@@ -54,6 +54,34 @@ export const libraries = [
         color: '#3042e6',
         img: 'learnergy.png',
         url: 'https://github.com/gugarosa/learnergy'  
+    },
+    {
+        title: 'Opytimark',
+        description: 'Opytimark is a Python library consisting of optimization benchmarking functions.',
+        color: '#1a79f3',
+        img: 'opytimark.png',
+        url: 'https://github.com/gugarosa/opytimark'  
+    },
+    {
+        title: 'Dualing',
+        description: 'Dualing is a Python library that implements dual-based neural learning.',
+        color: '#4a00d6',
+        img: 'dualing.png',
+        url: 'https://github.com/gugarosa/dualing'  
+    },
+    {
+        title: 'Textfier',
+        description: 'Textfier provides an easier interface to text-based modifiers.',
+        color: '#3042e6',
+        img: 'textfier.png',
+        url: 'https://github.com/gugarosa/textfier'  
+    },
+    {
+        title: 'Statys',
+        description: 'Statistical analyzers to provide more robust comparisons between Machine Learning techniques.',
+        color: '#1a79f3',
+        img: 'statys.png',
+        url: 'https://github.com/gugarosa/statys'  
     }
 
 
