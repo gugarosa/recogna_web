@@ -58,6 +58,18 @@ export const students = [
         url: ''
     },
     {
+        name: 'Augusto C.',
+        title: 'High School',
+        img: 'augusto_creppe.png',
+        url: 'http://lattes.cnpq.br/3317303734896405'
+    },
+    {
+        name: 'Bruno B.',
+        title: 'Master',
+        img: 'bruno_beluzzo.png',
+        url: 'http://lattes.cnpq.br/4335953462751748' 
+    },
+    {
         name: 'Claudio S.',
         title: 'PhD',
         img: 'claudio_santos.png',
@@ -74,6 +86,12 @@ export const students = [
         title: 'PhD',
         img: 'daniel_felipe.png',
         url: 'http://lattes.cnpq.br/2836331668288532'
+    },
+    {
+        name: 'Daniel J.',
+        title: 'Undergraduate',
+        img: 'daniel_jangua.png',
+        url: 'http://lattes.cnpq.br/1423509762623235'
     },
     {
         name: 'Danilo J.',
@@ -112,6 +130,12 @@ export const students = [
         url: 'http://lattes.cnpq.br/1505025763440648'
     },
     {
+        name: 'João M.',
+        title: 'Master',
+        img: 'joao_manesco.png',
+        url: 'http://lattes.cnpq.br/2238845011342979' 
+    },
+    {
         name: 'Leandro P.',
         title: 'Post-PhD',
         img: 'leandro_passos.png',
@@ -122,6 +146,12 @@ export const students = [
         title: 'PhD',
         img: 'luis_afonso.png',
         url: 'http://lattes.cnpq.br/0686979081263816'
+    },
+    {
+        name: 'Luis M.',
+        title: 'Undergraduate',
+        img: 'luis_morelli.png',
+        url: 'http://lattes.cnpq.br/0608461959857316'
     },
     {
         name: 'Luis S.',
@@ -158,6 +188,12 @@ export const students = [
         title: 'Post-PhD',
         img: 'rafael_pires.png',
         url: 'http://lattes.cnpq.br/8410467431339373'
+    },
+    {
+        name: 'Victor C.',
+        title: 'Master',
+        img: 'victor_canto.png',
+        url: 'http://lattes.cnpq.br/7492467413721957' 
     },
     {
         name: 'Vinícius C.',
